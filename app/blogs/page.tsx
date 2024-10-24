@@ -45,7 +45,7 @@ const blogsPage: React.FC = () => {
           </h1>
           <p className="text-white text-base lg:text-lg mt-4">
             Journey Beyond the Horizon: Explore, Travel, and Inspire" is a call
-            to adventure, embracing the unknown and pushing boundaries. It’s
+            to adventure, embracing the unknown and pushing boundaries. Its
             about seeking new experiences, discovering breathtaking landscapes,
             and immersing yourself in diverse cultures. This journey is not just
             about exploration but also about finding inspiration in the world
@@ -57,12 +57,11 @@ const blogsPage: React.FC = () => {
         </div>
       </div>
       <div className="flex justify-center items-center  bg-gray-100">
-        {/* V Shape Div */}
         <div
           className="relative w-full h-12 bg-gradient-to-b from-teal-800 to-teal-700"
           style={{
             clipPath: "polygon(50% 100%, 0% 0%, 100% 0%)",
-            zIndex: 1, // Ensure V shape is in front
+            zIndex: 1,
           }}
         ></div>
       </div>

@@ -27,11 +27,10 @@ export default function Page() {
   return (
     <>
       <main className="relative">
-        {/* Cover Photo Background */}
         <div
           className="bg-cover bg-center lg:min-h-[720px]"
           style={{
-            backgroundImage: "url('/img/home-photo-cover.jpg')",
+            backgroundImage: `url('/img/home-photo-cover.jpg')`,
           }}
         >
           <div className="relative mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 py-20 z-10">
