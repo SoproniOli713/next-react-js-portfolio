@@ -46,7 +46,7 @@ export default function HeaderLayout() {
         {/* Logo */}
         <div className="text-white text-xl font-bold">
           <a href="/">
-            <img src="/img/logo2.png" alt="MyLogo" className="h-12 w-full" />
+            <img src="/img/logo2.png" alt="MyLogo" className="h-12" />
           </a>
         </div>
 

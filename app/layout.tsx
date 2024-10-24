@@ -39,6 +39,7 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap"
           rel="stylesheet"
         />
+        <title>Soproni Oli</title>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-100`}
