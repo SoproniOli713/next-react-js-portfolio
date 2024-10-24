@@ -32,8 +32,7 @@ export default function Page() {
           className="bg-cover bg-center lg:min-h-[720px]"
           style={{
             backgroundImage: "url('/img/home-photo-cover.jpg')",
-            backgroundPosition: "",
-          }} // Replace with your image path
+          }}
         >
           <div className="relative mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 py-20 z-10">
             <div className="w-full mt-28">
