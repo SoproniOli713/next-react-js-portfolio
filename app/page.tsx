@@ -7,7 +7,7 @@ import SocialMediaIcons from "@/components/SocialMediaIcons";
 import ContactFormComponent from "@/components/ContactFormComponent";
 import ServiceComponent from "@/components/services/ServiceComponent";
 
-export default function page() {
+export default function Page() {
   // Tracks the current item to show
   const items = ["Web Developer", "Photography", "Lives in the Philippines"];
 
