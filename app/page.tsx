@@ -7,10 +7,10 @@ import SocialMediaIcons from "@/components/SocialMediaIcons";
 import ContactFormComponent from "@/components/ContactFormComponent";
 import ServiceComponent from "@/components/services/ServiceComponent";
 
-export default function Page() {
-  // Tracks the current item to show
-  const items = ["Web Developer", "Photography", "Lives in the Philippines"];
+// Tracks the current item to show
+const items = ["Web Developer", "Photography", "Lives in the Philippines"];
 
+export default function Page() {
   const [currentIndex, setCurrentIndex] = useState(0); // Track the current index
 
   useEffect(() => {
