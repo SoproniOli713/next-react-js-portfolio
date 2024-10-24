@@ -1,5 +1,4 @@
 import React from "react";
-import CircleComponent from "../CircleComponent";
 
 const PhotographyDescription: React.FC = () => {
   return (

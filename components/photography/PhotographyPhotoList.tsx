@@ -43,7 +43,7 @@ const PhotographyPhotoList: React.FC = () => {
           {photos.map((photo, index) => (
             <PhotographyPhotoDisplay
               photo={photo}
-              index={index}
+              key={index}
               onClick={openModal}
             ></PhotographyPhotoDisplay>
           ))}

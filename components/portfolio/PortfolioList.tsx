@@ -42,7 +42,7 @@ const PortfolioList: React.FC = () => {
           {portfolioData.map((data, index) => (
             <PorfolioCardDisplay
               data={data}
-              index={index}
+              key={index}
               onClick={openModal}
             ></PorfolioCardDisplay>
           ))}

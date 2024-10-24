@@ -1,5 +1,5 @@
 import React from "react";
-import { HashtagIcon } from "@heroicons/react/16/solid";
+
 const PhotographyWelcome: React.FC = () => {
   return (
     <div className="relative h-[60vh]">

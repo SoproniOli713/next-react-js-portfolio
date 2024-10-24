@@ -3,18 +3,14 @@ import { PhotoStructure } from "./PhotographyModel";
 
 interface Props {
   photo: PhotoStructure;
-  index: number;
+  key: number;
   onClick: (photo: PhotoStructure) => void; // Define the onClick handler type
 }
 
-const PhotographyPhotoDisplay: React.FC<Props> = ({
-  photo,
-  onClick,
-  index,
-}) => {
+const PhotographyPhotoDisplay: React.FC<Props> = ({ photo, onClick, key }) => {
   return (
     <div
-      key={index}
+      key={key}
       className="relative group w-full h-64 bg-slate-50 shadow-md p-3  overflow-hidden"
       onClick={() => onClick(photo)}
     >

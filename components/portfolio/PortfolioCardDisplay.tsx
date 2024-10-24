@@ -3,11 +3,11 @@ import { PortfolioSchema } from "./PortfolioModel";
 
 interface Props {
   data: PortfolioSchema;
-  index: number;
+  key: number;
   onClick: (photo: PortfolioSchema) => void; // Define the onClick handler type
 }
 
-const PortfolioCardDisplay: React.FC<Props> = ({ data, index, onClick }) => {
+const PortfolioCardDisplay: React.FC<Props> = ({ data, key, onClick }) => {
   return (
     // <div
     //   key={index}
@@ -30,7 +30,7 @@ const PortfolioCardDisplay: React.FC<Props> = ({ data, index, onClick }) => {
 
     <div
       className="max-w-sm rounded overflow-hidden shadow-lg bg-white m-4 pt-4 transform transition duration-500 hover:scale-105"
-      key={index}
+      key={key}
       onClick={() => onClick(data)}
     >
       <div className="overflow-hidden max-w-[95%] mx-auto">
