@@ -22,7 +22,13 @@ const ContactFormComponent = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     // Handle form submission logic here
-    console.log(formData);
+    // console.log(formData);
+    setFormData({
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
+    });
   };
 
   return (
@@ -48,7 +54,7 @@ const ContactFormComponent = () => {
                 placeholder="Your Name"
                 value={formData.name}
                 onChange={handleChange}
-                className="p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
+                className="text-slate-800 p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
                 required
               />
             </div>
