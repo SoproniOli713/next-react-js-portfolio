@@ -44,7 +44,7 @@ const blogsPage: React.FC = () => {
             Make time for travel
           </h1>
           <p className="text-white text-base lg:text-lg mt-4">
-            Journey Beyond the Horizon: Explore, Travel, and Inspire" is a call
+            Journey Beyond the Horizon: Explore, Travel, and Inspire is a call
             to adventure, embracing the unknown and pushing boundaries. Its
             about seeking new experiences, discovering breathtaking landscapes,
             and immersing yourself in diverse cultures. This journey is not just
