@@ -39,7 +39,7 @@ const ExperienceAboutRoadMap: React.FC<RoadmapProp> = ({ item }) => {
           <h3 className="text-xl text-teal-500 font-bold">{item.title}</h3>
           <h4 className="text-xl text-slate-500 font-bold">{item.company}</h4>
           <p className="mt-2 text-slate-500">{item.date}</p>
-          <p className="text-slate-500 mt-2">{item.description}</p>
+          <div className="text-slate-500 mt-2">{item.description}</div>
         </div>
       </div>
 
